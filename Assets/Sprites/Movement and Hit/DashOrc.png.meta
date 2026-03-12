@@ -1,0 +1,318 @@
+fileFormatVersion: 2
+guid: 7651ca440f6f4e947ae96807729bc61c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5834816060467118940
+    second: DashOrc_0
+  - first:
+      213: -9103209828218326249
+    second: DashOrc_1
+  - first:
+      213: 283323913555149740
+    second: DashOrc_2
+  - first:
+      213: 2895910524050663162
+    second: DashOrc_3
+  - first:
+      213: 3576609237136804185
+    second: DashOrc_4
+  - first:
+      213: -6210677461292329793
+    second: DashOrc_5
+  - first:
+      213: -7915502518508116923
+    second: DashOrc_6
+  - first:
+      213: 1772943472520283615
+    second: DashOrc_7
+  - first:
+      213: -3042242868416664833
+    second: DashOrc_8
+  - first:
+      213: -3811068583043749720
+    second: DashOrc_9
+  - first:
+      213: 5506479358443723852
+    second: DashOrc_10
+  - first:
+      213: -9128598648923193146
+    second: DashOrc_11
+  - first:
+      213: -7358272530956212154
+    second: DashOrc_12
+  - first:
+      213: -6787142341365974166
+    second: DashOrc_13
+  - first:
+      213: 57933149659063124
+    second: DashOrc_14
+  - first:
+      213: 5258299779237395442
+    second: DashOrc_15
+  - first:
+      213: -8704363079944804289
+    second: DashOrc_16
+  - first:
+      213: 2683730506106683795
+    second: DashOrc_17
+  - first:
+      213: -138354193354923211
+    second: DashOrc_18
+  - first:
+      213: -8562868029746282601
+    second: DashOrc_19
+  - first:
+      213: 516916996850995498
+    second: DashOrc_20
+  - first:
+      213: 4187390199664417921
+    second: DashOrc_21
+  - first:
+      213: -3144973818780510770
+    second: DashOrc_22
+  - first:
+      213: -4106669644145808098
+    second: DashOrc_23
+  - first:
+      213: -6330492254657454748
+    second: DashOrc_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DashOrc_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 386
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5303e5fa4e69f050800000000000000
+      internalID: 5834816060467118940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DashOrc_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 385
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713b33164e6eaa180800000000000000
+      internalID: -9103209828218326249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DashOrc_2
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 386
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca304d729919ee300800000000000000
+      internalID: 283323913555149740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DashOrc_3
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 387
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6ea574747503820800000000000000
+      internalID: 2895910524050663162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5616042e0d50f214ab75ebfc4a23dab3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DashOrc_0: 5834816060467118940
+      DashOrc_1: -9103209828218326249
+      DashOrc_10: 5506479358443723852
+      DashOrc_11: -9128598648923193146
+      DashOrc_12: -7358272530956212154
+      DashOrc_13: -6787142341365974166
+      DashOrc_14: 57933149659063124
+      DashOrc_15: 5258299779237395442
+      DashOrc_16: -8704363079944804289
+      DashOrc_17: 2683730506106683795
+      DashOrc_18: -138354193354923211
+      DashOrc_19: -8562868029746282601
+      DashOrc_2: 283323913555149740
+      DashOrc_20: 516916996850995498
+      DashOrc_21: 4187390199664417921
+      DashOrc_22: -3144973818780510770
+      DashOrc_23: -4106669644145808098
+      DashOrc_24: -6330492254657454748
+      DashOrc_3: 2895910524050663162
+      DashOrc_4: 3576609237136804185
+      DashOrc_5: -6210677461292329793
+      DashOrc_6: -7915502518508116923
+      DashOrc_7: 1772943472520283615
+      DashOrc_8: -3042242868416664833
+      DashOrc_9: -3811068583043749720
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

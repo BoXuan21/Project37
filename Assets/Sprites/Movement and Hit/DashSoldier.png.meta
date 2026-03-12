@@ -1,0 +1,573 @@
+fileFormatVersion: 2
+guid: 97a395d10bb75a946ae6e71546db08d8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7151652638759227917
+    second: DashSoldier_0
+  - first:
+      213: -1990293103009711089
+    second: DashSoldier_1
+  - first:
+      213: -1056471030250752774
+    second: DashSoldier_2
+  - first:
+      213: 1953772478008657622
+    second: DashSoldier_3
+  - first:
+      213: -980215880156677359
+    second: DashSoldier_4
+  - first:
+      213: -5764368541064600410
+    second: DashSoldier_5
+  - first:
+      213: 1308322355411550453
+    second: DashSoldier_6
+  - first:
+      213: -1811337837992084955
+    second: DashSoldier_7
+  - first:
+      213: -2172446259803299323
+    second: DashSoldier_8
+  - first:
+      213: -8501221321727776320
+    second: DashSoldier_9
+  - first:
+      213: 8481701264337336440
+    second: DashSoldier_10
+  - first:
+      213: -4762300710356877243
+    second: DashSoldier_11
+  - first:
+      213: -9083671075732090349
+    second: DashSoldier_12
+  - first:
+      213: -7521643455487372514
+    second: DashSoldier_13
+  - first:
+      213: 499619573995230086
+    second: DashSoldier_14
+  - first:
+      213: 8448047330168240280
+    second: DashSoldier_15
+  - first:
+      213: 5459649413991857766
+    second: DashSoldier_16
+  - first:
+      213: 646974195333616056
+    second: DashSoldier_17
+  - first:
+      213: -6722781763312373961
+    second: DashSoldier_18
+  - first:
+      213: 5251548560324476825
+    second: DashSoldier_19
+  - first:
+      213: -2504582059829964255
+    second: DashSoldier_20
+  - first:
+      213: 523224332252711835
+    second: DashSoldier_21
+  - first:
+      213: -1271005825423457915
+    second: DashSoldier_22
+  - first:
+      213: 6923964978399489688
+    second: DashSoldier_23
+  - first:
+      213: 2867118617191489115
+    second: DashSoldier_24
+  - first:
+      213: -4532020400714970789
+    second: DashSoldier_25
+  - first:
+      213: -3337827041424668681
+    second: DashSoldier_26
+  - first:
+      213: 2119642707088388408
+    second: DashSoldier_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DashSoldier_0
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 419
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd65cde0d930cc90800000000000000
+      internalID: -7151652638759227917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DashSoldier_1
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 416
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c3234c7fe0164e0800000000000000
+      internalID: -1990293103009711089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DashSoldier_2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 429
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4b9660239a651f0800000000000000
+      internalID: -1056471030250752774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DashSoldier_3
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 419
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d604ab97b13d1b10800000000000000
+      internalID: 1953772478008657622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DashSoldier_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 402
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5026cc603abe9d1e0800000000000000
+      internalID: -2172446259803299323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DashSoldier_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 407
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c96071df38950a80800000000000000
+      internalID: -8501221321727776320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DashSoldier_10
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 395
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878fec7ac5e05b570800000000000000
+      internalID: 8481701264337336440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DashSoldier_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 391
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54086955cb8e8edb0800000000000000
+      internalID: -4762300710356877243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DashSoldier_12
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 412
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3129f72b84150f180800000000000000
+      internalID: -9083671075732090349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DashSoldier_13
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 416
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13988ce021cd9790800000000000000
+      internalID: -7521643455487372514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DashSoldier_16
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 396
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e772f273294cb40800000000000000
+      internalID: 5459649413991857766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DashSoldier_17
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 394
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b154b35a938af800800000000000000
+      internalID: 646974195333616056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DashSoldier_18
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73faa47ea91e3b2a0800000000000000
+      internalID: -6722781763312373961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DashSoldier_19
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 396
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99fbada779f31e840800000000000000
+      internalID: 5251548560324476825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DashSoldier_22
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 392
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581ce249fea7c5ee0800000000000000
+      internalID: -1271005825423457915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 900df13b602383c499a9d415f1c62423
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DashSoldier_0: -7151652638759227917
+      DashSoldier_1: -1990293103009711089
+      DashSoldier_10: 8481701264337336440
+      DashSoldier_11: -4762300710356877243
+      DashSoldier_12: -9083671075732090349
+      DashSoldier_13: -7521643455487372514
+      DashSoldier_14: 499619573995230086
+      DashSoldier_15: 8448047330168240280
+      DashSoldier_16: 5459649413991857766
+      DashSoldier_17: 646974195333616056
+      DashSoldier_18: -6722781763312373961
+      DashSoldier_19: 5251548560324476825
+      DashSoldier_2: -1056471030250752774
+      DashSoldier_20: -2504582059829964255
+      DashSoldier_21: 523224332252711835
+      DashSoldier_22: -1271005825423457915
+      DashSoldier_23: 6923964978399489688
+      DashSoldier_24: 2867118617191489115
+      DashSoldier_25: -4532020400714970789
+      DashSoldier_26: -3337827041424668681
+      DashSoldier_27: 2119642707088388408
+      DashSoldier_28: -1060172896
+      DashSoldier_3: 1953772478008657622
+      DashSoldier_4: -980215880156677359
+      DashSoldier_5: -5764368541064600410
+      DashSoldier_6: 1308322355411550453
+      DashSoldier_7: -1811337837992084955
+      DashSoldier_8: -2172446259803299323
+      DashSoldier_9: -8501221321727776320
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

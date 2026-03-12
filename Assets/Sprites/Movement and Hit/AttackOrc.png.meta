@@ -1,0 +1,322 @@
+fileFormatVersion: 2
+guid: 66f4d714e3fbf924281b97e23740d723
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4525638274014522741
+    second: AttackOrc_0
+  - first:
+      213: -2826775734861969264
+    second: AttackOrc_1
+  - first:
+      213: -1092971977782457155
+    second: AttackOrc_2
+  - first:
+      213: 6362892912162955132
+    second: AttackOrc_3
+  - first:
+      213: -6029986049913034781
+    second: AttackOrc_4
+  - first:
+      213: 6186861129013901875
+    second: AttackOrc_5
+  - first:
+      213: 1871373223382622687
+    second: AttackOrc_6
+  - first:
+      213: 5645425028895638179
+    second: AttackOrc_7
+  - first:
+      213: -4036445449354354667
+    second: AttackOrc_8
+  - first:
+      213: 5386956466620469088
+    second: AttackOrc_9
+  - first:
+      213: -1480446659743003739
+    second: AttackOrc_10
+  - first:
+      213: -8094007521922235368
+    second: AttackOrc_11
+  - first:
+      213: -8347438341270523523
+    second: AttackOrc_12
+  - first:
+      213: -8656096434421570924
+    second: AttackOrc_13
+  - first:
+      213: -8511690775374395915
+    second: AttackOrc_14
+  - first:
+      213: 5314887378831587743
+    second: AttackOrc_15
+  - first:
+      213: 4714459286591092511
+    second: AttackOrc_16
+  - first:
+      213: 4785880176468970900
+    second: AttackOrc_17
+  - first:
+      213: -5408008792170687402
+    second: AttackOrc_18
+  - first:
+      213: 8632440604657307965
+    second: AttackOrc_19
+  - first:
+      213: 5512342736902636871
+    second: AttackOrc_20
+  - first:
+      213: 2199577357044795349
+    second: AttackOrc_21
+  - first:
+      213: -6683820097570494440
+    second: AttackOrc_22
+  - first:
+      213: -3378350532204007758
+    second: AttackOrc_23
+  - first:
+      213: -4549100709512149047
+    second: AttackOrc_24
+  - first:
+      213: 4334435545852856195
+    second: AttackOrc_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AttackOrc_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 413
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098cbdf227645c8d0800000000000000
+      internalID: -2826775734861969264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackOrc_2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 412
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc02dae6cbf4d0f0800000000000000
+      internalID: -1092971977782457155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackOrc_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 410
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fd25d34698d4850800000000000000
+      internalID: 6362892912162955132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackOrc_4
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 412
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e76f56c2af215ca0800000000000000
+      internalID: -6029986049913034781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5968c356a67a0624aad5d544894f628c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AttackOrc_0: -4525638274014522741
+      AttackOrc_1: -2826775734861969264
+      AttackOrc_10: -1480446659743003739
+      AttackOrc_11: -8094007521922235368
+      AttackOrc_12: -8347438341270523523
+      AttackOrc_13: -8656096434421570924
+      AttackOrc_14: -8511690775374395915
+      AttackOrc_15: 5314887378831587743
+      AttackOrc_16: 4714459286591092511
+      AttackOrc_17: 4785880176468970900
+      AttackOrc_18: -5408008792170687402
+      AttackOrc_19: 8632440604657307965
+      AttackOrc_2: -1092971977782457155
+      AttackOrc_20: 5512342736902636871
+      AttackOrc_21: 2199577357044795349
+      AttackOrc_22: -6683820097570494440
+      AttackOrc_23: -3378350532204007758
+      AttackOrc_24: -4549100709512149047
+      AttackOrc_25: 4334435545852856195
+      AttackOrc_3: 6362892912162955132
+      AttackOrc_4: -6029986049913034781
+      AttackOrc_5: 6186861129013901875
+      AttackOrc_6: 1871373223382622687
+      AttackOrc_7: 5645425028895638179
+      AttackOrc_8: -4036445449354354667
+      AttackOrc_9: 5386956466620469088
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,870 @@
+fileFormatVersion: 2
+guid: 3980e0c1a37e7ae4c9388032ec0e3e68
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1564843118744619722
+    second: SwordDash_0
+  - first:
+      213: 3336036066904842349
+    second: SwordDash_1
+  - first:
+      213: 4758449056420185209
+    second: SwordDash_2
+  - first:
+      213: 9141958945933853854
+    second: SwordDash_3
+  - first:
+      213: -7227527317822373634
+    second: SwordDash_4
+  - first:
+      213: 1046916144891556447
+    second: SwordDash_5
+  - first:
+      213: 7078346030744884919
+    second: SwordDash_6
+  - first:
+      213: -89164473255342166
+    second: SwordDash_7
+  - first:
+      213: 5930483349585143802
+    second: SwordDash_8
+  - first:
+      213: 7425911074041146695
+    second: SwordDash_9
+  - first:
+      213: 4518350413287105951
+    second: SwordDash_10
+  - first:
+      213: -6846540087844558776
+    second: SwordDash_11
+  - first:
+      213: 5425080395985786745
+    second: SwordDash_12
+  - first:
+      213: -6501032828064745816
+    second: SwordDash_13
+  - first:
+      213: -5412341291025256792
+    second: SwordDash_14
+  - first:
+      213: -7433278546106695170
+    second: SwordDash_15
+  - first:
+      213: -74573221501740463
+    second: SwordDash_16
+  - first:
+      213: 3156176996450268203
+    second: SwordDash_17
+  - first:
+      213: -1376391557156426575
+    second: SwordDash_18
+  - first:
+      213: -5234793664873505025
+    second: SwordDash_19
+  - first:
+      213: 3892814233022553332
+    second: SwordDash_20
+  - first:
+      213: 2113193071100674986
+    second: SwordDash_21
+  - first:
+      213: -4626453682526963329
+    second: SwordDash_22
+  - first:
+      213: -7984720045519357035
+    second: SwordDash_23
+  - first:
+      213: -4103038919977319799
+    second: SwordDash_24
+  - first:
+      213: 2596073722544941843
+    second: SwordDash_25
+  - first:
+      213: 90806731669838022
+    second: SwordDash_26
+  - first:
+      213: -8014892996821770559
+    second: SwordDash_27
+  - first:
+      213: 2295956954709012238
+    second: SwordDash_28
+  - first:
+      213: 3558104376365930817
+    second: SwordDash_29
+  - first:
+      213: 7194118553274079238
+    second: SwordDash_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SwordDash_2
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 404
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974c7b99438690240800000000000000
+      internalID: 4758449056420185209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 404
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e948793a933cede70800000000000000
+      internalID: 9141958945933853854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_4
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 406
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef004c0923aa2bb90800000000000000
+      internalID: -7227527317822373634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_5
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 310
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52f1eddfa4678e00800000000000000
+      internalID: 1046916144891556447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_7
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 311
+        width: 76
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aafc70d426933cef0800000000000000
+      internalID: -89164473255342166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_8
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 312
+        width: 74
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af724667f2f4d4250800000000000000
+      internalID: 5930483349585143802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_9
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 312
+        width: 74
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74dacd517c22e0760800000000000000
+      internalID: 7425911074041146695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 216
+        width: 63
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95a7baf2c764be30800000000000000
+      internalID: 4518350413287105951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_11
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 216
+        width: 63
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848ad8b80143cf0a0800000000000000
+      internalID: -6846540087844558776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_12
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 214
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9771ba870e1c94b40800000000000000
+      internalID: 5425080395985786745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_13
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 214
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a63c0a3611b7c5a0800000000000000
+      internalID: -6501032828064745816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_14
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 214
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aea249854083e4b0800000000000000
+      internalID: -5412341291025256792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_15
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 118
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef147c6ab80b7d890800000000000000
+      internalID: -7433278546106695170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_16
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 154
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ad1a6dc0017fef0800000000000000
+      internalID: -74573221501740463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_17
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 160
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b247da1914efccb20800000000000000
+      internalID: 3156176996450268203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_18
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 165
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc28d3db2316ece0800000000000000
+      internalID: -1376391557156426575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_19
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 171
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffedfbc95e64a57b0800000000000000
+      internalID: -5234793664873505025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_20
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 119
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fcd4ef7bed060630800000000000000
+      internalID: 3892814233022553332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_21
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 118
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa3c5c8e6e1935d10800000000000000
+      internalID: 2113193071100674986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_22
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 119
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f79be2343e88bcfb0800000000000000
+      internalID: -4626453682526963329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_23
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 127
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59bb0e76c63903190800000000000000
+      internalID: -7984720045519357035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_24
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 80
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982462357d31f07c0800000000000000
+      internalID: -4103038919977319799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_25
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 82
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b640bcb4b170420800000000000000
+      internalID: 2596073722544941843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_26
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 86
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c81568cd3c924100800000000000000
+      internalID: 90806731669838022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_27
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 56
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce1cabb84165c090800000000000000
+      internalID: -8014892996821770559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_28
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 38
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0fa4019fa0ecdf10800000000000000
+      internalID: 2295956954709012238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_29
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 52
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149dd03241de06130800000000000000
+      internalID: 3558104376365930817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDash_30
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 59
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608d2f745b4a6d360800000000000000
+      internalID: 7194118553274079238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b11801f1869e8684198a4915a57a3254
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SwordDash_0: 1564843118744619722
+      SwordDash_1: 3336036066904842349
+      SwordDash_10: 4518350413287105951
+      SwordDash_11: -6846540087844558776
+      SwordDash_12: 5425080395985786745
+      SwordDash_13: -6501032828064745816
+      SwordDash_14: -5412341291025256792
+      SwordDash_15: -7433278546106695170
+      SwordDash_16: -74573221501740463
+      SwordDash_17: 3156176996450268203
+      SwordDash_18: -1376391557156426575
+      SwordDash_19: -5234793664873505025
+      SwordDash_2: 4758449056420185209
+      SwordDash_20: 3892814233022553332
+      SwordDash_21: 2113193071100674986
+      SwordDash_22: -4626453682526963329
+      SwordDash_23: -7984720045519357035
+      SwordDash_24: -4103038919977319799
+      SwordDash_25: 2596073722544941843
+      SwordDash_26: 90806731669838022
+      SwordDash_27: -8014892996821770559
+      SwordDash_28: 2295956954709012238
+      SwordDash_29: 3558104376365930817
+      SwordDash_3: 9141958945933853854
+      SwordDash_30: 7194118553274079238
+      SwordDash_4: -7227527317822373634
+      SwordDash_5: 1046916144891556447
+      SwordDash_6: 7078346030744884919
+      SwordDash_7: -89164473255342166
+      SwordDash_8: 5930483349585143802
+      SwordDash_9: 7425911074041146695
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

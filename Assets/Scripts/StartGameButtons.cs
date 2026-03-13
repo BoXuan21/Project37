@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class StartGameButton : MonoBehaviour
 {
-    public string sceneName = "FightScene";
+    public string sceneName = "CharacterSelect";
 
     public void StartGame()
     {

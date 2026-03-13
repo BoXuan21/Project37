@@ -67,6 +67,11 @@ void EnablePlayers()
     p2.GetComponent<MeleeAttack>().enabled = true;
 }
 
+public void BeginMatch()
+{
+    StartCoroutine(StartRound());
+}
+
     public void PlayerDied(GameObject deadPlayer)
     {
         if (roundEnding) return;
@@ -138,7 +143,7 @@ void ResetAnimator(GameObject player)
         for (int i = 0; i < maxWins; i++)
         {
             if (i < wins)
-                s += "W ";
+                s += "O ";
             else
                 s += "_ ";
         }

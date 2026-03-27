@@ -5,16 +5,21 @@ public class ParryController : MonoBehaviour
 {
     public int playerIndex = 1;
 
-    [Header("Parry")]
-    public float parryDuration = 0.2f;
+    [Header("Parry Timing")]
+    public float perfectParryWindow = 0.03f;
+    public float normalParryWindow = 0.16f;
     public float parryCooldown = 0.8f;
+
+    [Header("Parry Result")]
     public float parryKnockbackForce = 8f;
+    public float parryKnockbackY = 2f;
 
     [Header("Visual")]
     public Color parryColor = Color.blue;
-    public float blinkInterval = 0.05f;
+    public float blinkInterval = 0.03f;
 
     private bool isParrying = false;
+    private bool isPerfectParry = false;
     private bool canParry = true;
 
     private SpriteRenderer sr;
@@ -49,14 +54,18 @@ public class ParryController : MonoBehaviour
     IEnumerator ParryRoutine()
     {
         isParrying = true;
+        isPerfectParry = true;
         canParry = false;
 
-        float timer = 0f;
+        float elapsed = 0f;
         bool blueOn = false;
 
-        while (timer < parryDuration)
+        while (elapsed < normalParryWindow)
         {
-            timer += blinkInterval;
+            elapsed += blinkInterval;
+
+            if (elapsed > perfectParryWindow)
+                isPerfectParry = false;
 
             if (sr != null)
             {
@@ -71,6 +80,7 @@ public class ParryController : MonoBehaviour
             sr.color = originalColor;
 
         isParrying = false;
+        isPerfectParry = false;
 
         yield return new WaitForSeconds(parryCooldown);
         canParry = true;
@@ -81,16 +91,28 @@ public class ParryController : MonoBehaviour
         return isParrying;
     }
 
-    public void OnSuccessfulParry(GameObject attacker)
+    public bool IsPerfectParrying()
+    {
+        return isParrying && isPerfectParry;
+    }
+
+    public void OnSuccessfulParry(GameObject attacker, bool wasPerfectParry)
     {
         if (anim != null)
             anim.SetTrigger("Attack");
+
+        RageController attackerRage = attacker.GetComponent<RageController>();
+        bool attackerIsInRage = attackerRage != null && attackerRage.IsRageActive();
+
+        // In rage mode: allow chain parry, but NO knockback
+        if (attackerIsInRage)
+            return;
 
         Rigidbody2D attackerRb = attacker.GetComponent<Rigidbody2D>();
         if (attackerRb != null)
         {
             float dir = attacker.transform.position.x > transform.position.x ? 1f : -1f;
-            attackerRb.linearVelocity = new Vector2(dir * parryKnockbackForce, 2f);
+            attackerRb.linearVelocity = new Vector2(dir * parryKnockbackForce, parryKnockbackY);
         }
     }
 }

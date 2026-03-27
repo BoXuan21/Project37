@@ -31,47 +31,49 @@ public class PlayerHealth : MonoBehaviour
     }
 
     public void TakeDamage(float damage, Vector2 hitDirection)
+{
+    Debug.Log(name + " TakeDamage called with damage = " + damage);
+
+    if (isDead) return;
+    if (isInHitstun) return;
+
+    life -= damage;
+    life = Mathf.Clamp(life, 0f, 1f);
+
+    Debug.Log(name + " new life = " + life);
+
+    if (heartUI != null)
     {
-        if (isDead) return;
-        if (isInHitstun) return;
-
-        life -= damage;
-        life = Mathf.Clamp(life, 0f, 1f);
-
-        Debug.Log(name + " life: " + life);
-
-        // ❤️ UI Update
-        if (heartUI != null)
-            heartUI.UpdateHeart(life);
-
-        // ❄️ Hit Freeze
-        if (HitFreezeManager.instance != null)
-            HitFreezeManager.instance.Freeze(0.05f);
-
-        // 💥 Hit Effekt
-        if (hitEffect != null)
-          Instantiate(hitEffect,
-    transform.position + (Vector3)hitDirection * 0.6f,
-    Quaternion.LookRotation(Vector3.forward, hitDirection));
-
-        // 📳 Camera Shake
-        if (CameraShake.instance != null)
-            CameraShake.instance.Shake(0.08f, 0.08f);
-
-        // ☠️ Death Check
-        if (life <= 0f)
-        {
-            Die(hitDirection);
-            return;
-        }
-
-        // 🤕 Hurt Animation
-        if (anim != null)
-            anim.SetTrigger("Hurt");
-
-        // Hitstun starten
-        StartCoroutine(HitstunCoroutine(hitDirection));
+        Debug.Log(name + " updating HeartUI");
+        heartUI.UpdateHeart(life);
     }
+    else
+    {
+        Debug.LogWarning(name + " heartUI is NULL!");
+    }
+
+    if (HitFreezeManager.instance != null)
+        HitFreezeManager.instance.Freeze(0.05f);
+
+    if (hitEffect != null)
+        Instantiate(hitEffect,
+            transform.position + (Vector3)hitDirection * 0.6f,
+            Quaternion.LookRotation(Vector3.forward, hitDirection));
+
+    if (CameraShake.instance != null)
+        CameraShake.instance.Shake(0.08f, 0.08f);
+
+    if (life <= 0f)
+    {
+        Die(hitDirection);
+        return;
+    }
+
+    if (anim != null)
+        anim.SetTrigger("Hurt");
+
+    StartCoroutine(HitstunCoroutine(hitDirection));
+}
 
     private IEnumerator HitstunCoroutine(Vector2 hitDirection)
     {
@@ -151,4 +153,12 @@ public class PlayerHealth : MonoBehaviour
             rb.linearVelocity = Vector2.zero;
         }
     }
+
+    public void SetHeartUI(HeartUI ui)
+{
+    heartUI = ui;
+
+    if (heartUI != null)
+        heartUI.UpdateHeart(life);
+}
 }

@@ -282,4 +282,23 @@ public class PlayerMovement2D : MonoBehaviour
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
     }
+
+    public void ResetMovementState()
+{
+    moveInput = 0f;
+
+    isDashing = false;
+    isAirDashing = false;
+    hasAirDashed = false;
+
+    dashTimer = 0f;
+    dashCooldownTimer = 0f;
+    dashDirection = 0f;
+
+    lastLeftPress = -1f;
+    lastRightPress = -1f;
+
+    if (rb != null)
+        rb.linearVelocity = Vector2.zero;
+}
 }

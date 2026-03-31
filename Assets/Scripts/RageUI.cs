@@ -14,6 +14,16 @@ public class RageUI : MonoBehaviour
 
     void Update()
     {
+        bool rageEnabled = GameModeSettings.Instance == null || GameModeSettings.Instance.RageEnabled();
+
+        if (!rageEnabled)
+        {
+            gameObject.SetActive(false);
+            return;
+        }
+
+        gameObject.SetActive(true);
+
         if (rageText == null || rageController == null)
             return;
 
@@ -21,13 +31,13 @@ public class RageUI : MonoBehaviour
         {
             rageText.text = "RAGE!";
         }
-        else if (rageController.rageBars >= 2)
+        else if (rageController.rageBars >= rageController.maxRageBars)
         {
             rageText.text = "RAGE READY";
         }
         else
         {
-            rageText.text = "RAGE " + rageController.rageBars + "/2";
+            rageText.text = "RAGE " + rageController.rageBars + "/" + rageController.maxRageBars;
         }
     }
 }

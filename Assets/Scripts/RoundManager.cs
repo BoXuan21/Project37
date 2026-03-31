@@ -16,6 +16,7 @@ public class RoundManager : MonoBehaviour
     public TextMeshProUGUI p2Text;
     public GameObject koText;
     public TextMeshProUGUI roundText;
+    public EndScreenUI endScreenUI;
 
     [Header("Match")]
     public int p1Wins = 0;
@@ -81,11 +82,20 @@ public class RoundManager : MonoBehaviour
         if (koText != null)
             koText.SetActive(false);
 
-        if (p1Wins >= maxWins || p2Wins >= maxWins)
-        {
-            Debug.Log("MATCH OVER");
-            yield break;
-        }
+if (p1Wins >= maxWins || p2Wins >= maxWins)
+{
+    string winnerName = "";
+
+    if (p1Wins >= maxWins)
+        winnerName = CharacterSelectionData.player1Name;
+    else
+        winnerName = CharacterSelectionData.player2Name;
+
+    if (endScreenUI != null)
+        endScreenUI.ShowWinner(winnerName);
+
+    yield break;
+}
 
         RestartRound();
         roundEnding = false;

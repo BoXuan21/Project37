@@ -46,9 +46,9 @@ public class ParryController : MonoBehaviour
     bool GetParryPressed()
     {
         if (playerIndex == 1)
-            return Input.GetKeyDown(KeyCode.K);
+            return Input.GetKeyDown(InputBindings.P1Parry);
 
-        return Input.GetKeyDown(KeyCode.O);
+        return Input.GetKeyDown(InputBindings.P2Parry);
     }
 
     IEnumerator ParryRoutine()
@@ -104,7 +104,6 @@ public class ParryController : MonoBehaviour
         RageController attackerRage = attacker.GetComponent<RageController>();
         bool attackerIsInRage = attackerRage != null && attackerRage.IsRageActive();
 
-        // In rage mode: allow chain parry, but NO knockback
         if (attackerIsInRage)
             return;
 

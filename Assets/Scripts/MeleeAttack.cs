@@ -63,9 +63,9 @@ public class MeleeAttack : MonoBehaviour
     bool GetMeleePressed()
     {
         if (playerIndex == 1)
-            return Input.GetKeyDown(KeyCode.J);
+            return Input.GetKeyDown(InputBindings.P1Attack);
 
-        return Input.GetKeyDown(KeyCode.I) || Input.GetKeyDown(KeyCode.Keypad1);
+        return Input.GetKeyDown(InputBindings.P2Attack);
     }
 
     public void EnableMeleeHitbox()

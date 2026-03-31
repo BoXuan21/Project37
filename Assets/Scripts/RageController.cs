@@ -10,8 +10,6 @@ public class RageController : MonoBehaviour
 
     [Header("Input")]
     public int playerIndex = 1;
-    public KeyCode p1RageKey = KeyCode.L;
-    public KeyCode p2RageKey = KeyCode.P;
 
     [Header("Visual")]
     public Color rageColor = Color.red;
@@ -34,6 +32,12 @@ public class RageController : MonoBehaviour
 
     void Update()
     {
+        if (!IsRageAllowed())
+        {
+            ForceDisableRage();
+            return;
+        }
+
         if (rageActive) return;
         if (rageBars < maxRageBars) return;
 
@@ -46,22 +50,44 @@ public class RageController : MonoBehaviour
     bool GetRagePressed()
     {
         if (playerIndex == 1)
-            return Input.GetKeyDown(p1RageKey);
+            return Input.GetKeyDown(InputBindings.P1Rage);
 
-        return Input.GetKeyDown(p2RageKey);
+        return Input.GetKeyDown(InputBindings.P2Rage);
+    }
+
+    bool IsRageAllowed()
+    {
+        return GameModeSettings.Instance == null || GameModeSettings.Instance.RageEnabled();
     }
 
     public void AddRageBar()
     {
+        if (!IsRageAllowed())
+            return;
+
         rageBars = Mathf.Clamp(rageBars + 1, 0, maxRageBars);
         Debug.Log(name + " rage bars: " + rageBars + "/" + maxRageBars);
+    }
+
+    void ForceDisableRage()
+    {
+        rageBars = 0;
+
+        if (rageActive)
+        {
+            rageActive = false;
+
+            if (sr != null)
+                sr.color = originalColor;
+
+            if (meleeAttack != null)
+                meleeAttack.SetRageMode(false);
+        }
     }
 
     IEnumerator RageRoutine()
     {
         rageActive = true;
-
-        // Consume all rage bars when rage is activated
         rageBars = 0;
 
         if (meleeAttack != null)
@@ -72,6 +98,12 @@ public class RageController : MonoBehaviour
 
         while (elapsed < rageDuration)
         {
+            if (!IsRageAllowed())
+            {
+                ForceDisableRage();
+                yield break;
+            }
+
             elapsed += blinkInterval;
 
             if (sr != null)

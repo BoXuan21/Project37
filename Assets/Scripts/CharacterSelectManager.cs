@@ -9,10 +9,15 @@ public class CharacterSelectManager : MonoBehaviour
     public GameObject soldierPrefab;
     public GameObject swordsmanPrefab;
 
+    [Header("Scenes")]
+    public string rageScene = "Rage";
+    public string normalScene = "Normal";
+
     [Header("UI")]
     public TMP_Text p1Text;
     public TMP_Text p2Text;
     public TMP_Text editModeText;
+
 
     private int currentPlayerToEdit = 1;
 
@@ -32,16 +37,18 @@ public class CharacterSelectManager : MonoBehaviour
 
     void SelectCharacter(GameObject prefab, string characterName)
     {
-        if (currentPlayerToEdit == 1)
-        {
-            CharacterSelectionData.player1Prefab = prefab;
-            if (p1Text != null) p1Text.text = "P1: " + characterName;
-        }
-        else
-        {
-            CharacterSelectionData.player2Prefab = prefab;
-            if (p2Text != null) p2Text.text = "P2: " + characterName;
-        }
+       if (currentPlayerToEdit == 1)
+{
+    CharacterSelectionData.player1Prefab = prefab;
+    CharacterSelectionData.player1Name = characterName;
+    if (p1Text != null) p1Text.text = "P1: " + characterName;
+}
+else
+{
+    CharacterSelectionData.player2Prefab = prefab;
+    CharacterSelectionData.player2Name = characterName;
+    if (p2Text != null) p2Text.text = "P2: " + characterName;
+}
     }
 
     public void EditPlayer1()
@@ -56,15 +63,27 @@ public class CharacterSelectManager : MonoBehaviour
         if (editModeText != null) editModeText.text = "Currently Editing: P2";
     }
 
-    public void StartFight()
+    public void StartFightNormal()
+    {
+        if (!CanStart()) return;
+        SceneManager.LoadScene(normalScene);
+    }
+
+    public void StartFightRage()
+    {
+        if (!CanStart()) return;
+        SceneManager.LoadScene(rageScene);
+    }
+
+    bool CanStart()
     {
         if (CharacterSelectionData.player1Prefab == null || CharacterSelectionData.player2Prefab == null)
         {
             Debug.LogWarning("Both players must select a character.");
-            return;
+            return false;
         }
 
-        SceneManager.LoadScene("FightScene");
+        return true;
     }
 
     public void BackToMainMenu()

@@ -6,12 +6,32 @@ public class EndScreenUI : MonoBehaviour
 {
     public GameObject root;
     public TMP_Text winnerText;
+    public TMP_Text statsText;
 
-    public void ShowWinner(string winnerName)
+    public void ShowWinner(string winnerName, float totalSetTime, float averageRoundTime)
     {
         root.SetActive(true);
-        winnerText.text = winnerName + " WINS!";
+
+        if (winnerText != null)
+            winnerText.text = winnerName + " WINS!";
+
+        if (statsText != null)
+            statsText.text =
+                "Set Time: " + FormatTime(totalSetTime) + "\n" +
+                "Avg Round: " + Mathf.RoundToInt(averageRoundTime) + "s";
+
         Time.timeScale = 0f;
+    }
+
+    string FormatTime(float seconds)
+    {
+        int mins = Mathf.FloorToInt(seconds / 60f);
+        int secs = Mathf.FloorToInt(seconds % 60f);
+
+        if (mins > 0)
+            return mins + "m " + secs + "s";
+
+        return secs + "s";
     }
 
     public void Rematch()

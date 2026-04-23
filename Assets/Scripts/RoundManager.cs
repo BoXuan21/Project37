@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using System.Collections;
+using System.Collections.Generic;
 
 public class RoundManager : MonoBehaviour
 {
@@ -25,6 +26,10 @@ public class RoundManager : MonoBehaviour
 
     private bool roundEnding = false;
 
+    private float currentRoundStartTime;
+    private float totalSetTime = 0f;
+    private List<float> roundDurations = new List<float>();
+
     void Start()
     {
         UpdateUI();
@@ -47,6 +52,10 @@ public class RoundManager : MonoBehaviour
         if (roundEnding) return;
 
         roundEnding = true;
+
+        float roundDuration = Time.time - currentRoundStartTime;
+        roundDurations.Add(roundDuration);
+        totalSetTime += roundDuration;
 
         if (deadPlayer == p1)
         {
@@ -82,20 +91,24 @@ public class RoundManager : MonoBehaviour
         if (koText != null)
             koText.SetActive(false);
 
-if (p1Wins >= maxWins || p2Wins >= maxWins)
-{
-    string winnerName = "";
+        if (p1Wins >= maxWins || p2Wins >= maxWins)
+        {
+            string winnerName = "";
 
-    if (p1Wins >= maxWins)
-        winnerName = CharacterSelectionData.player1Name;
-    else
-        winnerName = CharacterSelectionData.player2Name;
+            if (p1Wins >= maxWins)
+                winnerName = CharacterSelectionData.player1Name;
+            else
+                winnerName = CharacterSelectionData.player2Name;
 
-    if (endScreenUI != null)
-        endScreenUI.ShowWinner(winnerName);
+            float averageRoundTime = 0f;
+            if (roundDurations.Count > 0)
+                averageRoundTime = totalSetTime / roundDurations.Count;
 
-    yield break;
-}
+            if (endScreenUI != null)
+                endScreenUI.ShowWinner(winnerName, totalSetTime, averageRoundTime);
+
+            yield break;
+        }
 
         RestartRound();
         roundEnding = false;
@@ -146,6 +159,7 @@ if (p1Wins >= maxWins || p2Wins >= maxWins)
             roundText.gameObject.SetActive(false);
         }
 
+        currentRoundStartTime = Time.time;
         EnablePlayers();
     }
 

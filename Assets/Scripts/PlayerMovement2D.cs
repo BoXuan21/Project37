@@ -3,19 +3,19 @@ using UnityEngine;
 public class PlayerMovement2D : MonoBehaviour
 {
     public int playerIndex = 1;
-    public float moveSpeed = 8f;
+    public float moveSpeed = 12f;
 
     [Header("Jump")]
-    public float jumpForce = 14f;
+    public float jumpForce = 18f;
 
     [Header("Dash")]
-    public float dashSpeed = 16f;
+    public float dashSpeed = 20f;
     public float dashDuration = 0.15f;
     public float dashCooldown = 0.6f;
     public float doubleTapTime = 0.25f;
 
     [Header("Air Dash")]
-    public float airDashSpeed = 12f;
+    public float airDashSpeed = 20f;
     public float airDashDuration = 0.12f;
 
     [Header("Ground Check")]

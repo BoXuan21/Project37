@@ -1,1 +1,1 @@
-# game37
+In this Repo you will find myGame, that i have created for the bachelor thesis
